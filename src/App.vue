@@ -13,8 +13,6 @@
     <GifGrid :gifs='searchedGifs'></GifGrid>
     <h2 class="title is-2">Trendings</h2>
     <GifGrid :gifs='trendingGifs'></GifGrid>
-
-
   </div>
 </template>
 
