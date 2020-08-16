@@ -58,6 +58,6 @@ export default {
   background-color: whitesmoke;
 }
 .search {
-  margin-bottom: 1.3em;
+  margin-bottom: 3em;
 }
 </style>
