@@ -1,6 +1,6 @@
 <template>
-    <div class="columns is-multiline grid is-vcentered has-background-primary" v-if="gifs">
-      <div class="column is-one-quarter" v-for="gif in gifs" v-bind:key="gif.id">
+    <div class="container" v-if="gifs">
+      <div class="item" v-for="gif in gifs" v-bind:key="gif.id">
         <GifBox :gif="gif"></GifBox>
       </div>
     </div>
