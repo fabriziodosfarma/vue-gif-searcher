@@ -21,4 +21,6 @@ yarn lint
 ```
 
 ### Wireframe Figma
+```
 https://www.figma.com/file/uyYJLrQgN0mw5fv9lL1ALg/Wireframe-GIF?node-id=0%3A1
+```
