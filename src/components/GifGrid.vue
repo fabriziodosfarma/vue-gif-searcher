@@ -1,6 +1,6 @@
 <template>
-    <div class="container" v-if="gifs">
-      <div class="item" v-for="gif in gifs" v-bind:key="gif.id">
+    <div v-if="gifs">
+      <div v-for="gif in gifs" v-bind:key="gif.id">
         <GifBox :gif="gif"></GifBox>
       </div>
     </div>
