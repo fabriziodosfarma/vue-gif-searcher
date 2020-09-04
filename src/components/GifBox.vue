@@ -1,5 +1,5 @@
 <template>
-    <div class="gif-box">
+    <div>
         <img :src="gif.images.original.url">
     </div>
 </template>
