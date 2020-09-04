@@ -20,5 +20,5 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Wireframe Figma
+https://www.figma.com/file/uyYJLrQgN0mw5fv9lL1ALg/Wireframe-GIF?node-id=0%3A1
