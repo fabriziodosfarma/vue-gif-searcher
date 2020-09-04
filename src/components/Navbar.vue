@@ -1,6 +1,4 @@
-<template>
-    <nav></nav>
-</template>
+<template src='./templates/Navbar.html'></template>
 
 <script>
 export default {

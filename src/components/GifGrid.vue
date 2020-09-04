@@ -1,10 +1,4 @@
-<template>
-    <div v-if="gifs">
-      <div v-for="gif in gifs" v-bind:key="gif.id">
-        <GifBox :gif="gif"></GifBox>
-      </div>
-    </div>
-</template>
+<template src='./templates/GifGrid.html'></template>
 
 <script>
 import GifBox from './GifBox.vue'

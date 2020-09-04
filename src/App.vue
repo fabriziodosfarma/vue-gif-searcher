@@ -1,20 +1,4 @@
-<template>
-  <div class="app">
-    <Navbar></Navbar>
-    <section>
-      <div>
-        <div>
-          <h1>GIF Searcher</h1>
-          <h2>Find the best GIFs</h2>
-        </div>
-      </div>
-    </section>
-    <input type="text" name="query" placeholder="Search the best GIFs" v-model="query" @keyup="searchGifs">
-    <GifGrid :gifs='searchedGifs'></GifGrid>
-    <h2>Trending</h2>
-    <GifGrid :gifs='trendingGifs'></GifGrid>
-  </div>
-</template>
+<template src='./templates/App.html'></template>
 
 <script>
 import GifGrid from './components/GifGrid.vue'
