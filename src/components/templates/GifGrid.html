@@ -1,0 +1,5 @@
+<div v-if="gifs">
+    <div v-for="gif in gifs" v-bind:key="gif.id">
+        <GifBox :gif="gif"></GifBox>
+    </div>
+</div>

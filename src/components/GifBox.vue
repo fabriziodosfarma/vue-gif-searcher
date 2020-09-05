@@ -1,8 +1,4 @@
-<template>
-    <div>
-        <img :src="gif.images.original.url">
-    </div>
-</template>
+<template src='./templates/GifBox.html'></template>
 
 <script>
 export default {
@@ -11,6 +7,6 @@ export default {
 }
 </script>
 
-<style scoped src='./GifBox.scss' lang='scss'>
+<style scoped src='./styles/GifBox.scss' lang='scss'>
 
 </style>
