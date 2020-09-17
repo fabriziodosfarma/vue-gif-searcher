@@ -23,5 +23,4 @@ yarn lint
 ### Wireframe Figma
 ```
 https://www.figma.com/file/gQ7zmhA6sB4SSEk9rYVSLj/Wireframe-GIF-Desktop-mobile
-
 ```
