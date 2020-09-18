@@ -1,15 +1,15 @@
 <div class="app">
-    <Navbar></Navbar>
-    <section>
+  <Navbar></Navbar>
+  <section>
+    <div>
       <div>
-        <div>
-          <h1>GIF Searcher</h1>
-          <h2>Find the best GIFs</h2>
-        </div>
+        <h1>GIF Searcher</h1>
+        <h2>Find the best GIFs</h2>
       </div>
-    </section>
-    <input type="text" name="query" placeholder="Search the best GIFs" v-model="query" @keyup="searchGifs">
-    <GifGrid :gifs='searchedGifs'></GifGrid>
-    <h2>Trending</h2>
-    <GifGrid :gifs='trendingGifs'></GifGrid>
-  </div>
+    </div>
+  </section>
+  <input type="text" name="query" placeholder="Search the best GIFs" v-model="query" @keyup="searchGifs">
+  <GifGrid :gifs='searchedGifs'></GifGrid>
+  <h2>Trending</h2>
+  <GifGrid :gifs='trendingGifs'></GifGrid>
+</div>
