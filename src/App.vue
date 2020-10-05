@@ -3,10 +3,11 @@
 <script>
 import GifGrid from './components/GifGrid.vue'
 import Navbar from './components/Navbar.vue'
+import BannerCTA from './components/BannerCTA.vue'
 
 export default {
   name: 'App',
-  components: {GifGrid,Navbar},
+  components: {GifGrid,Navbar,BannerCTA},
   data: function() {
     return {
       trendingGifs: null,
