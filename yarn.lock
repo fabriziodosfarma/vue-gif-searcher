@@ -877,6 +877,29 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@giphy/js-fetch-api@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-fetch-api/-/js-fetch-api-1.7.0.tgz#ddbcac8d575f0039c12323fc2920450a21206357"
+  integrity sha512-9rDofAfGEcQCS9tP7O9Eipq4EdciTzxS5F6/dlpwhJbt0lxSEVLBWyTbuhEivwcMNIXtlZlspnnmuJM6/dfsvQ==
+  dependencies:
+    "@giphy/js-types" "^2.1.0"
+    "@giphy/js-util" "^1.9.2"
+    cookie "0.4.1"
+    qs "^6.9.4"
+
+"@giphy/js-types@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-types/-/js-types-2.1.0.tgz#a264ddecd2e276d6af7ec297e01a1c2899b13c6a"
+  integrity sha512-s67HZskpuIEViUTTdpoZk4LMwjaU7M0ZbMZuG2ZAzlSIgsJHH0AbrR2U+0DU93oKVY3uJThqGMDrSyDz6GCNjQ==
+
+"@giphy/js-util@^1.9.2":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@giphy/js-util/-/js-util-1.9.2.tgz#b0aafad497fa6b37ecdd582d4147d63ba0c9f026"
+  integrity sha512-Otmm7TiSCAoZQNuUwOQ+/P7LipMLNmClkVwa5H8zk7BDCR3kqCu4y5hTDWNdJH2vtlf4UHX+1obEwdE20O6Q9A==
+  dependencies:
+    "@giphy/js-types" "^2.1.0"
+    dompurify "^2.0.12"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -2662,6 +2685,11 @@ cookie@0.4.0:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
 
+cookie@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.1.tgz#afd713fe26ebd21ba95ceb61f9a8116e50a537d1"
+  integrity sha512-ZwrFkGJxUR3EIoXtO+yVE69Eb7KlixbaeAWfBQB9vVsNn/o+Yw69gBWSSDK825hQNdN+wF8zELf3dFNl/kxkUA==
+
 copy-concurrently@^1.0.0:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/copy-concurrently/-/copy-concurrently-1.0.5.tgz#92297398cae34937fcafd6ec8139c18051f0b5e0"
@@ -3206,6 +3234,11 @@ domhandler@^2.3.0:
   integrity sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
   dependencies:
     domelementtype "1"
+
+dompurify@^2.0.12:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-2.1.1.tgz#b5aa988676b093a9c836d8b855680a8598af25fe"
+  integrity sha512-NijiNVkS/OL8mdQL1hUbCD6uty/cgFpmNiuFxrmJ5YPH2cXrPKIewoixoji56rbZ6XBPmtM8GA8/sf9unlSuwg==
 
 domutils@1.5.1:
   version "1.5.1"
@@ -6672,6 +6705,11 @@ qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
+
+qs@^6.9.4:
+  version "6.9.4"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
+  integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
 
 qs@~6.5.2:
   version "6.5.2"
