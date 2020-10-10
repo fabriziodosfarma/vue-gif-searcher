@@ -19,7 +19,7 @@ export default {
     }
   },
   methods: {
-    fechTrendingGifs: function() {
+    fetchTrendingGifs: function() {
       const url = `${this.baseURL}trending?api_key=${this.apiKey}&limit=8`;
         fetch(url)
           .then(response => response.json())
@@ -33,7 +33,7 @@ export default {
     }
   },
   created: function() {
-    this.fechTrendingGifs()
+    this.fetchTrendingGifs()
   }
 } 
 </script>
