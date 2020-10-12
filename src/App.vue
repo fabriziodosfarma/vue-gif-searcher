@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar.vue";
 import BannerCTA from "./components/BannerCTA.vue";
 import Footer from "./components/Footer.vue";
 
-const gf = new GiphyFetch("zjabJCYz2uiqqJjvzeSLXSbg6E49Dr5u");
+const gf = new GiphyFetch(`${process.env.VUE_APP_GIPHY_API_KEY}`);
 
 export default {
   name: "App",
