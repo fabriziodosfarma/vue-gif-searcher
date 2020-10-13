@@ -1,16 +1,8 @@
 <div class="app">
   <Navbar></Navbar>
-  <section>
-    <div>
-      <div>
-        <h1>GIF Searcher</h1>
-        <h2>Find the best GIFs</h2>
-      </div>
-    </div>
-  </section>
   <input type="text" name="query" placeholder="Enter to search" v-model="query" @keyup.enter="searchGifs">
   <GifGrid :gifs='searchedGifs'></GifGrid>
-  <h2>Trendings</h2>
+  <h2>Trending</h2>
   <GifGrid :gifs='trendingGifs'></GifGrid>
   <h2>Reactions</h2>
   <GifGrid :gifs='reactionsGifs'></GifGrid>
