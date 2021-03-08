@@ -852,27 +852,26 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@giphy/js-fetch-api@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@giphy/js-fetch-api/-/js-fetch-api-2.0.1.tgz#ad9945711b1681018b8325ec6990e70722d62986"
-  integrity sha512-KjkgvLH7eF/Ei4X7m3UYehNVMBS1m198eZSPcfijMaDvyzoSRuEBfdMZZp2Ckp37BUGPHlgease/hbvAMWWmpQ==
+"@giphy/js-fetch-api@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-fetch-api/-/js-fetch-api-2.4.0.tgz#e96c7a2599b720d3e40ea409d8e4c4a692aa4611"
+  integrity sha512-xiMHnv81XZjgut4yrkHB5QHDWGNhVHoyMDb3kQBy5H0NruwtQ+aM5BE9xbP+XQlxt3eRnPRJcLy5ORk9+K0fIQ==
   dependencies:
-    "@giphy/js-types" "^3.0.0"
-    "@giphy/js-util" "^2.0.0"
-    cookie "0.4.1"
+    "@giphy/js-types" "^3.1.0"
+    "@giphy/js-util" "^2.2.0"
     qs "^6.9.4"
 
-"@giphy/js-types@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@giphy/js-types/-/js-types-3.0.0.tgz#0fb7d91a9a9cf079a8a2776776c84c873e807c57"
-  integrity sha512-o0e/0eyT7xxqU1el7rc5xL7K1ibWxiRSzqJcUDB9Zy/YGrAYx01YZNji84gNnR83w/rC3Zmw+TN3fm7WHA4dKA==
+"@giphy/js-types@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-types/-/js-types-3.1.0.tgz#cfddcfeb7d389542fc2ffc147bbe122760cfa3b6"
+  integrity sha512-/gzA5Ny6tYVSXHndBzoIPx2t0Lu0UkbvCxb4g+KWEwQslWmak/2vZcO2X6jdIObHkN/8ejFIXr5Od40Namhtvw==
 
-"@giphy/js-util@^2.0.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@giphy/js-util/-/js-util-2.1.0.tgz#7df9e95821a1fbe2e5548d6b20faa9d81b9b5766"
-  integrity sha512-MY75RHk4rhSYqZ7y87RB/xhDeIHrzHsaeJSfpi7HALs5TZp4HTkAoO8Hh0KeCwVDK/9dP52AMqbjDgrIYp7xDw==
+"@giphy/js-util@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-util/-/js-util-2.2.0.tgz#887f957e497ec7a956db5bc271259a02e7cbeffd"
+  integrity sha512-3EHFgOCtAwyV+yild+2YhGB9I+Ht1rXZw+kAuL4+9Ypy+oOwsK++iSdeAw6dY/nddzm91Ch3KB1rP1DBvU+JuA==
   dependencies:
-    "@giphy/js-types" "^3.0.0"
+    "@giphy/js-types" "^3.1.0"
     dompurify "^2.2.2"
     uuid "^8.3.0"
 
@@ -2668,11 +2667,6 @@ cookie@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
-
-cookie@0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.4.1.tgz#afd713fe26ebd21ba95ceb61f9a8116e50a537d1"
-  integrity sha512-ZwrFkGJxUR3EIoXtO+yVE69Eb7KlixbaeAWfBQB9vVsNn/o+Yw69gBWSSDK825hQNdN+wF8zELf3dFNl/kxkUA==
 
 copy-concurrently@^1.0.0:
   version "1.0.5"
