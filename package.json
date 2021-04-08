@@ -10,7 +10,7 @@
   "dependencies": {
     "@giphy/js-fetch-api": "2.0.1",
     "bulma": "^0.9.1",
-    "core-js": "^3.6.5",
+    "core-js": "^3.10.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
