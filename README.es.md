@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/fabriziodosfarma/vue-gif-searcher/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/davidplpz/vue-gif-searcher/blob/master/README.md)
 
 # giphy_vue
 
